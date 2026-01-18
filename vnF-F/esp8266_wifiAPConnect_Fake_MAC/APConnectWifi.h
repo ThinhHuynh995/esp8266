@@ -58,14 +58,16 @@ private:
   String getFooter();
   int _ledPin = -1;
   const String HotSpotName = "AP_THINH_SETUP";
-  String WifiName = "VNPT-IT5.AP.P-ICS";
+  String WifiName = "VNPT-ICS";
   uint8_t newMACAddress[6] = {0xfe, 0x00, 0x02, 0x00, 0x2c, 0xc0};
-  const String MAC01 = "fe:00:02:00:2c:c0";
-  const String Name01 = "VNPT-IT5.AP.P-ICS";
+  const String MAC01 = "8a:78:ba:d2:65:23";
+  const String Name01 = "VNPT-ICS";
   const String MAC02 = "74:83:c2:91:05:34";
   const String Name02 = "VNPT-IT.AP.Egov-PM4";
   const String MAC03 = "00:1e:78:08:26:3c";
   const String Name03 = "VNPT-IT.AP.P-BanGiamDoc";
+  const String MAC04 = "92:36:7d:01:22:66";
+  const String Name04 = "VNPT-IT.AP.VNPT-IT.KV5-NEW";
   const int ssidLength = 32;
   const int passLength = 15 + ssidLength;
   const int macLength = 17 + passLength;
@@ -577,6 +579,8 @@ void APConnectWifi::handleApSetup() {
        "','" + Name02 + "')\">" + Name02 + "</button>";
   p += "<button type='button' class='btn btn-secondary' onclick=\"s('" + MAC03 +
        "','" + Name03 + "')\">" + Name03 + "</button>";
+  p += "<button type='button' class='btn btn-secondary' onclick=\"s('" + MAC04 +
+       "','" + Name04 + "')\">" + Name04 + "</button>";
   p += "</div>";
 
   p += "<script>function "
