@@ -66,7 +66,7 @@ private:
   const String Name02 = "VNPT-IT.AP.Egov-PM4";
   const String MAC03 = "00:1e:78:08:26:3c";
   const String Name03 = "VNPT-IT.AP.P-BanGiamDoc";
-  const String MAC04 = "92:36:7d:01:22:66";
+  const String MAC04 = "3e:ca:fa:3e:0c:9d";
   const String Name04 = "VNPT-IT.AP.VNPT-IT.KV5-NEW";
   const int ssidLength = 32;
   const int passLength = 15 + ssidLength;
